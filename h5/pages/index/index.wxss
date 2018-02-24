@@ -1,21 +1,76 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@import "../../static/css/iconfont.wxss"
+
+
+/* 自定义样式 */
+.home_view{
+  height: 100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.big_btn_view{
+  padding: 18.75rpx 26.25rpx; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  position: relative;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.big_nav{
+  width: 333.75rpx; 
+  height: 333.75rpx; 
+  background-color: rgb(237, 237, 237); 
+  margin-bottom: 26.25rpx; 
+  position: relative; 
+  border-radius: 10px;
 }
 
-.usermotto {
-  margin-top: 200px;
+.bg-red{
+  background-color: #f95856;
+}
+
+.bg-blue{
+  background-color: #29cce3;
+}
+
+.bg-green{
+  background-color: #24ceb1;
+}
+
+.bg-yellow{
+  background-color: #fcad37;
+}
+
+.banner{
+  width: 100%;
+  height: 150px;
+}
+
+.nav-title{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.nav-bottom{
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5px;
+}
+
+.nav-days{
+  font-size: 18px;
+}
+
+.icon{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 15px;
 }

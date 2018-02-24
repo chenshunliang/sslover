@@ -1,13 +1,34 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="c-minheight home_view container">
+    <view>
+      <image class="banner" src="../../static/img/banner.jpeg"></image>
+    </view>
+    <view class="big_btn_view">
+        <navigator url="anniver" class="big_nav bg-red" hover-class="navigator-hover">
+          <view class="nav-title">
+            <text>纪念日</text>
+          </view>
+          <view class="iconfont icon-time icon"></view>
+          <view class="nav-bottom nav-days">{{days}}</view>
+        </navigator>
+        <navigator url="/pages/map/map" class="big_nav bg-blue" hover-class="navigator-hover">
+          <view class="nav-title">
+            <text>签到</text>
+          </view>
+          <view class="iconfont icon-ticket icon"></view>
+        </navigator>
+        <navigator url="index" class="big_nav bg-green" hover-class="none">
+          <view class="nav-title">
+            <text>相册</text>
+          </view>
+          <view class="iconfont icon-pic icon"></view>
+          <view class="nav-bottom">敬请期待...</view>
+        </navigator>
+        <navigator url="index" class="big_nav bg-yellow" hover-class="none">
+          <view class="nav-title">
+            <text>备忘录</text>
+          </view>
+          <view class="iconfont icon-comment icon"></view>
+          <view class="nav-bottom">敬请期待...</view>
+        </navigator>
+    </view>
 </view>

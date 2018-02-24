@@ -1,0 +1,9 @@
+<view class="container map">
+  <view class="map_view">
+    <map class="map_map"></map>
+  </view>
+  <view>
+    <textarea class="text" placeholder="签到时想说的话..."></textarea>
+  </view>
+  <button type="warn" class="btn">进行签到</button>
+</view>

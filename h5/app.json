@@ -1,12 +1,32 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/map/map",
+    "pages/anniver/anniver"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fa5756",
+    "navigationBarTitleText": "欢乐屋",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#fa5756",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/img/home_s.png",
+        "iconPath": "static/img/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/img/people_s.png",
+        "iconPath": "static/img/people.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
   }
 }

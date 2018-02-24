@@ -14,6 +14,14 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const getDateDiff = startDate => {
+  var startTime = new Date(Date.parse(startDate.replace(/-/g, "/"))).getTime();
+  var endTime = new Date().getTime();
+  var dates = Math.abs((startTime - endTime)) / (1000 * 60 * 60 * 24);
+  return dates;
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  getDateDiff: getDateDiff
 }
