@@ -1,6 +1,6 @@
 /**app.wxss**/
 .container {
-  height: 100rpx;
+  height: 100vh;
   background-color: #efefef;
   width: 100%;
 } 

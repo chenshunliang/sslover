@@ -1,2 +1,27 @@
-<!--pages/anniver/anniver.wxml-->
-<text>pages/anniver/anniver.wxml</text>
+<view class="container">
+  <view class="avatar_view">
+    <view class="left">
+      <image class="avatar avatar_right" src="../../static/img/male.jpeg"></image>
+    </view>
+    <view class="iconfont icon-like ion"></view>
+    <view class="right">
+      <image class="avatar avatar_left" src="../../static/img/female.jpeg"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="bar">
+    <text decode>初次相识&nbsp;</text>
+    <text class="right_text"><text>{{days_f}}</text>天，距离一周年 <text>{{days_f_d}}</text>天</text>
+    <progress percent="{{days_f_p}}" active color="#fa5756" stroke-width="25" />
+  </view>
+  <view class="bar">
+    <text decode>爱情萌芽&nbsp;</text>
+    <text class="right_text"><text>{{days_s}}</text>天，距离一周年 <text>{{days_s_d}}</text>天</text>
+    <progress percent="{{days_s_p}}" active color="#fa5756" stroke-width="25" />
+  </view>
+  <view class="bar">
+    <text decode>不依不舍&nbsp;</text>
+    <text class="right_text"><text>{{days_t}}</text>天，距离一周年 <text>{{days_t_d}}</text>天</text>
+    <progress percent="{{days_t_p}}" active color="#fa5756" stroke-width="25" />
+  </view>
+</view>

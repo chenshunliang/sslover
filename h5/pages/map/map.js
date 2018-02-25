@@ -1,42 +1,62 @@
 Page({
   data: {
-    markers: [{
-      iconPath: "/resources/others.png",
-      id: 0,
-      latitude: 23.099994,
-      longitude: 113.324520,
-    }],
-    polyline: [{
-      points: [{
-        longitude: 113.3245211,
-        latitude: 23.10229
-      }, {
-        longitude: 113.324520,
-        latitude: 23.21229
-      }],
-      color: "#FF0000DD",
-      width: 2,
-      dottedLine: true
-    }],
-    controls: [{
-      id: 1,
-      iconPath: '/resources/location.png',
-      position: {
-        left: 0,
-        top: 300 - 50,
-        width: 50,
-        height: 50
+    location_name: '',
+    location_address: ''
+  },
+  onReady: function (e) {
+    // 使用 wx.createMapContext 获取 map 上下文
+    this.mapCtx = wx.createMapContext('sign_map')
+    const mapApp = this
+    wx.chooseLocation({
+      success: function (res) {
+        console.log(res.longitude)
+        console.log(res.latitude)
+        mapApp.setData({
+          location_name: res.name,
+          location_address: res.address
+        })
+        mapApp.getCenterLocation()
+      }
+    })
+  },
+  getCenterLocation: function () {
+    const mapApp = this
+    this.mapCtx.getCenterLocation({
+      success: function (res) {
+        mapApp.moveToLocation()
       },
-      clickable: true
-    }]
+      fail: function (res) {
+        console.log('gps error')
+      }
+    })
   },
-  regionchange(e) {
-    console.log(e.type)
+  moveToLocation: function () {
+    this.mapCtx.moveToLocation()
   },
-  markertap(e) {
-    console.log(e.markerId)
+  translateMarker: function () {
+    this.mapCtx.translateMarker({
+      markerId: 0,
+      autoRotate: true,
+      duration: 1000,
+      destination: {
+        latitude: 23.10229,
+        longitude: 113.3345211,
+      },
+      animationEnd() {
+        console.log('animation end')
+      }
+    })
   },
-  controltap(e) {
-    console.log(e.controlId)
+  includePoints: function () {
+    this.mapCtx.includePoints({
+      padding: [10],
+      points: [{
+        latitude: 23.10229,
+        longitude: 113.3345211,
+      }, {
+        latitude: 23.00229,
+        longitude: 113.3345211,
+      }]
+    })
   }
 })

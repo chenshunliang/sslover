@@ -3,7 +3,7 @@
       <image class="banner" src="../../static/img/banner.jpeg"></image>
     </view>
     <view class="big_btn_view">
-        <navigator url="anniver" class="big_nav bg-red" hover-class="navigator-hover">
+        <navigator url="/pages/anniver/anniver" class="big_nav bg-red" hover-class="navigator-hover">
           <view class="nav-title">
             <text>纪念日</text>
           </view>
