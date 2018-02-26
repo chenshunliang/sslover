@@ -15,13 +15,14 @@
             <text>签到</text>
           </view>
           <view class="iconfont icon-ticket icon"></view>
+          <view class="nav-bottom">今日已签到 1 次</view>
         </navigator>
-        <navigator url="index" class="big_nav bg-green" hover-class="none">
+        <navigator url="/pages/photo/photo" class="big_nav bg-green" hover-class="none">
           <view class="nav-title">
             <text>相册</text>
           </view>
           <view class="iconfont icon-pic icon"></view>
-          <view class="nav-bottom">敬请期待...</view>
+          <view class="nav-bottom">今日已上传 1 张</view>
         </navigator>
         <navigator url="index" class="big_nav bg-yellow" hover-class="none">
           <view class="nav-title">

@@ -3,12 +3,12 @@
     <map id="sign_map" show-location class="map_map"></map>
   </view>
   <view class="location">
-      <view class="iconfont icon-location ion"></view>
+      <view bindtap="openMap" class="iconfont icon-location ion"></view>
       <view class="name">{{location_name}}</view>
       <view class="address">{{location_address}}</view>
   </view>
   <view class="text_view">
-    <textarea class="text" placeholder="签到时想说的话..."></textarea>
-    <button type="warn" class="btn">进行签到</button>
+    <textarea class="text" placeholder="此刻心情..."></textarea>
+    <button bindtap="signPosition" type="warn" class="btn">进行签到</button>
   </view>
 </view>

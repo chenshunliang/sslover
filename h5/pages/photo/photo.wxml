@@ -1,0 +1,5 @@
+<view class="container">
+  <view>
+    <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+  </view>
+</view>

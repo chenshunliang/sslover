@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/map/map",
-    "pages/anniver/anniver"
+    "pages/anniver/anniver",
+    "pages/photo/photo"
   ],
   "window": {
     "backgroundTextStyle": "light",
