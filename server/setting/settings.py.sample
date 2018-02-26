@@ -4,4 +4,11 @@
 FILE_PATH = ''
 
 # wechat
-APP_ID = 'wx662d7572e84b5b8b'
+APP_ID = ''
+
+
+# database
+DATABASE = ''
+USERNAME = ''
+PASSWORD = ''
+IP = ''

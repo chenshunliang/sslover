@@ -66,3 +66,16 @@ class Photo(Base):
 
     def __str__(self):
         return self.file_name
+
+
+class PageAnalysis(Base):
+    '''
+    页面分析
+    '''
+
+    __tablename__ = 'analysis'
+
+    id = Column(u'id', Integer, primary_key=True, autoincrement=True)
+
+    def __str__(self):
+        return ''
