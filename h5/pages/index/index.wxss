@@ -21,6 +21,7 @@
   margin-bottom: 26.25rpx; 
   position: relative; 
   border-radius: 10px;
+  margin-top: 26.25rpx;
 }
 
 .bg-red{
@@ -73,4 +74,41 @@
   font-size: 60px;
   color: white;
   margin-top: 15px;
+}
+
+.top-left{
+  border-bottom-right-radius: 70px;
+}
+
+.top-right{
+  border-bottom-left-radius: 70px;
+}
+
+.bottom-left{
+  border-top-right-radius: 70px;
+}
+
+.bottom-right{
+  border-top-left-radius: 70px;
+}
+
+.time{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 80px;
+}
+
+.nav-title-mid{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  line-height: 80px;
+  font-weight: bold;
 }

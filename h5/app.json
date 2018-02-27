@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/map/map",
     "pages/anniver/anniver",
-    "pages/photo/photo"
+    "pages/photo/photo",
+    "pages/timeline/timeline"
   ],
   "window": {
     "backgroundTextStyle": "light",

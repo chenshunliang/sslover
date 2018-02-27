@@ -3,33 +3,38 @@
       <image class="banner" src="../../static/img/banner.jpeg"></image>
     </view>
     <view class="big_btn_view">
-        <navigator url="/pages/anniver/anniver" class="big_nav bg-red" hover-class="navigator-hover">
+        <navigator url="/pages/anniver/anniver" class="big_nav bg-red top-left" hover-class="navigator-hover">
           <view class="nav-title">
             <text>纪念日</text>
           </view>
           <view class="iconfont icon-time icon"></view>
           <view class="nav-bottom nav-days">{{days}}</view>
         </navigator>
-        <navigator url="/pages/map/map" class="big_nav bg-blue" hover-class="navigator-hover">
+        <navigator url="/pages/map/map" class="big_nav bg-blue top-right" hover-class="navigator-hover">
           <view class="nav-title">
             <text>签到</text>
           </view>
           <view class="iconfont icon-ticket icon"></view>
           <view class="nav-bottom">今日已签到 1 次</view>
         </navigator>
-        <navigator url="/pages/photo/photo" class="big_nav bg-green" hover-class="none">
+        <navigator url="/pages/photo/photo" class="big_nav bg-green bottom-left" hover-class="none">
           <view class="nav-title">
             <text>相册</text>
           </view>
           <view class="iconfont icon-pic icon"></view>
           <view class="nav-bottom">今日已上传 1 张</view>
         </navigator>
-        <navigator url="index" class="big_nav bg-yellow" hover-class="none">
+        <navigator url="index" class="big_nav bg-yellow bottom-right" hover-class="none">
           <view class="nav-title">
-            <text>备忘录</text>
+            <text>约会指北</text>
           </view>
-          <view class="iconfont icon-comment icon"></view>
+          <view class="iconfont icon-location icon"></view>
           <view class="nav-bottom">敬请期待...</view>
+        </navigator>
+        <navigator url="/pages/timeline/timeline" class="big_nav bg-red time" hover-class="navigator-hover">
+          <view class="nav-title-mid">
+            <text>时光机</text>
+          </view>
         </navigator>
     </view>
 </view>
