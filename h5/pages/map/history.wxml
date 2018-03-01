@@ -1,6 +1,6 @@
 <view class="listitemWrap">
     <view class="image_thumbView">
-      <map class="map_map" longitude="113.324520" latitude="23.099994"></map>
+      <image class="image_thumb" src="{{src}}"></image>
     </view>
     <view bindtap="openMap" class="iconfont icon-location ion">
       <text>四川省成都市武侯祠大街30号</text>
@@ -15,7 +15,7 @@
     </view>
 
     <view class="image_thumbView">
-      <map class="map_map" longitude="113.324520" latitude="23.099994"></map>
+      <image class="image_thumb" src="{{src}}"></image>
     </view>
     <view bindtap="openMap" class="iconfont icon-location ion">
       <text>四川省成都市武侯祠大街30号</text>

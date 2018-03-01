@@ -1,18 +1,42 @@
-// pages/map/history.js
+const amap = require('../../libs/amap-wx.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    src: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var that = this;
+    var myAmapFun = new amap.AMapWX({key: '67ec532969747870eeae852c44243998'});
+    wx.getSystemInfo({
+      success: function (data) {
+        var height = 150;
+        var width = data.windowWidth;
+        var size = width + '*' + height;
+        myAmapFun.getStaticmap({
+          zoom: 14,
+          size: size,
+          scale: 2,
+          location: '113.324520,23.099994',
+          markers: "mid,0xFF0000,A:113.324520,23.099994;",
+          success: function (data) {
+            that.setData({
+              src: data.url
+            })
+          },
+          fail: function (info) {
+            wx.showModal({ title: info.errMsg })
+          }
+        })
+      }
+    })
   },
 
   /**

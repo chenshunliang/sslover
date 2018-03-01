@@ -1,5 +1,5 @@
 @import "../../static/css/iconfont.wxss"
-
+@import "../../static/css/iconfont_w.wxss"
 
 /* 自定义样式 */
 .home_view{
@@ -111,4 +111,49 @@
   font-size: 18px;
   line-height: 80px;
   font-weight: bold;
+}
+
+.weather_view{
+  background-color: #468ecf;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.weather-ion{
+  margin-left: 15px;
+  font-size: 100px;
+  float: left;
+}
+
+.city{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 25px;
+  float: left;
+}
+
+.temp_name{
+  font-size: 14px;
+  text-align: right;
+}
+
+.temp{
+  font-size: 55px;
+  text-align: right;
+}
+
+.other{
+  float: right;
+  font-size: 12px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.weather_time{
+  position: absolute;
+  margin: auto;
+  right: 5px;
+  bottom: 5px;
+  font-size: 12px;
 }

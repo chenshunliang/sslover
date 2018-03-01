@@ -1,7 +1,24 @@
 <view class="c-minheight home_view container">
-    <view>
-      <image class="banner" src="../../static/img/banner.jpeg"></image>
-    </view>
+    <swiper indicator-active-color="#fa5756" indicator-dots="true">
+      <swiper-item>
+        <view style="background-color:{{weathercolor}}" class="weather_view">
+          <view class="iconfont {{weatherion}} weather-ion"></view>
+          <view class="city">
+            <view>{{city}}</view>
+            <view class="temp_name">{{weather}}</view>
+            <view class="temp">{{temperature}}</view>  
+          </view>
+          <view class="other">
+            <view>相对湿度:{{humidity}}</view>
+            <view>风力:{{wind}}</view>
+          </view>
+          <view class="weather_time">{{time}}</view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <image class="banner" src="../../static/img/banner.jpeg"></image>
+      </swiper-item>
+    </swiper>
     <view class="big_btn_view">
         <navigator url="/pages/anniver/anniver" class="big_nav bg-red top-left" hover-class="navigator-hover">
           <view class="nav-title">
