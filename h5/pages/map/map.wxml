@@ -9,6 +9,15 @@
   </view>
   <view class="text_view">
     <textarea class="text" placeholder="此刻心情..."></textarea>
-    <button bindtap="signPosition" type="warn" class="btn">进行签到</button>
+    <view class="btn-left">
+      <navigator bindtap="signPosition" class="ss-btn" hover-class="none">
+        <text class="c-block ss-text">记录心情</text>
+      </navigator>
+    </view>
+     <view class="btn-right">
+      <navigator url="/pages/map/history" class="ss-btn ss-default" hover-class="none">
+        <text class="c-block ss-text">回忆</text>
+      </navigator>
+    </view> 
   </view>
 </view>

@@ -20,16 +20,16 @@
 }
 
 .text_view{
-  position: relative;
+  margin-top: 15px;
 }
 
 .text{
   font-size: 14px;
   border: 1px solid #efefef;
   border-radius: 5px;
-  width: 90vw;
+  width: 90%;
   padding: 7px;
-  margin-left: 3.5vw;
+  margin: auto;
   background-color: white;
 }
 
@@ -53,4 +53,16 @@
   color: #1692ff;
   right: 3%;
   line-height: 24px;
+}
+
+.btn-left{
+  float: left;
+  width: 60%;
+  margin-left: 4%;
+}
+
+.btn-right{
+  float: right;
+  width: 30%;
+  margin-right: 4%;
 }

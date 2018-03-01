@@ -1,67 +1,164 @@
 /**app.wxss**/
+
 .container {
-  height: 100vh;
-  background-color: #efefef;
-  width: 100%;
-} 
+        height: 100vh;
+        background-color: #efefef;
+        width: 100%;
+}
 
 /* 基础样式 */
-view,scroll-view,swiper,swiper-item,icon,text,progress,button,checkbox-group,checkbox,form,input,label,picker,radio-group,radio,slider,switch,action-sheet,action-sheet-item,action-sheet-cancel,modal,toast,loading,navigator,audio,image,video,map,canvas {
+
+view,
+scroll-view,
+swiper,
+swiper-item,
+icon,
+text,
+progress,
+button,
+checkbox-group,
+checkbox,
+form,
+input,
+label,
+picker,
+radio-group,
+radio,
+slider,
+switch,
+action-sheet,
+action-sheet-item,
+action-sheet-cancel,
+modal,
+toast,
+loading,
+navigator,
+audio,
+image,
+video,
+map,
+canvas {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
 }
+
 page {
         height: 100%;
-        font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+        font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
 }
-
-
-
 
 checkbox-group,
-radio-group{
-        display:block;
+radio-group {
+        display: block;
 }
 
-
-
-
 :before,
-:after ,
+:after,
 ::before,
-::after{
+::after {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
 }
+
 .c-minheight {
         min-height: 80px;
 }
+
 .c-full {
         width: 100%;
         height: 100%;
 }
+
 .c-block {
         display: block;
 }
+
 .c-autosize {
         width: auto;
         height: auto;
 }
+
 .c-fullwidth {
         width: 100%;
 }
+
 .c-fullheight {
         height: 100%;
 }
-.c-initHide{
-        opacity:0 !important;
+
+.c-initHide {
+        opacity: 0 !important;
 }
-.c-ellipse{
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
-            overflow:hidden;
+
+.c-ellipse {
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+}
+
+.ss-btn {
+        height: 45px;
+        background-color: #fa5756;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 4px;
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 25px;
+}
+
+.ss-default {
+        background-color: #29cce3;
+        opacity: 0.8;
+}
+
+.ss-text {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        line-height: 45px;
+        z-index: 4;
+        font-size: 16px;
+}
+
+.ss-btn::after {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background-color: rgb(250, 250, 250);
+        content: "";
+        opacity: 0;
+        transform: rotate(0deg) scale(1) translate(0%, 0%);
+        transition: All 1s ease;
+        -ms-transform: rotate(0deg) scale(1) translate(0%, 0%);
+        -o-transform: rotate(0deg) scale(1) translate(0%, 0%);
+        -moz-transform: rotate(0deg) scale(1) translate(0%, 0%);
+        -webkit-transform: rotate(0deg) scale(1) translate(0%, 0%);
+        -ms-transition: All 1s ease;
+        -o-transition: All 1s ease;
+        -moz-transition: All 1s ease;
+        -webkit-transition: All 1s ease;
+}
+
+.ss-btn:active::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.46;
+        transform: rotate(0deg) scale(1) translate(0%, 0%);
+        transition: all 0s;
 }

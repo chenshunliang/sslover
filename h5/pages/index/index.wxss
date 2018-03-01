@@ -7,7 +7,7 @@
 }
 
 .big_btn_view{
-  padding: 18.75rpx 26.25rpx; 
+  padding: 0rpx 26.25rpx; 
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-between; 
