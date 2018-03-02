@@ -11,28 +11,18 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     days: parseInt(util.getDateDiff('2017-10-30')),
-    city: '',
-    humidity: '',
-    weather: '',
-    temperature: '',
-    wind: '',
-    time: '',
+    weather: {},
     weatherion: 'icon-qing',
     weathercolor: '#468ecf'
   },
   onShow: function () {
     var that = this;
-    var myAmapFun = new amap.AMapWX({key: '67ec532969747870eeae852c44243998'});
-    myAmapFun.getWeather({
+    var map = new amap.AMapWX({key: '67ec532969747870eeae852c44243998'});
+    map.getWeather({
       success: function (data) {
         //成功回调
         that.setData({
-          city: data.city.data,
-          humidity: data.humidity.data,
-          weather: data.weather.data,
-          temperature: data.temperature.data,
-          wind: data.liveData.winddirection + '风 ' + data.liveData.windpower + '级',
-          time: data.liveData.reporttime,
+          weather: data,
           hasUserInfo: true
         })
         if (data.weather.data.indexOf('晴') > -1){

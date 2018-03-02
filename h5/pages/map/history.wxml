@@ -9,7 +9,7 @@
     <view class="listitemInfoWrap">
         <view class="likeinfo">
             <text class="iconfont icon-like icon-l"></text>
-            <text class="c-block likeinfo_count">22</text>
+            <text class="c-block likeinfo_count">leon 深情的在此刻签到了</text>
         </view>
         <text class="listitem_creattime">2016.10.29</text>
     </view>
@@ -24,22 +24,7 @@
     <view class="listitemInfoWrap">
         <view class="likeinfo">
             <text class="iconfont icon-like icon-l"></text>
-            <text class="c-block likeinfo_count">22</text>
-        </view>
-        <text class="listitem_creattime">2016.10.29</text>
-    </view>
-
-    <view class="image_thumbView">
-      <map class="map_map" longitude="113.324520" latitude="23.099994"></map>
-    </view>
-    <view bindtap="openMap" class="iconfont icon-location ion">
-      <text>四川省成都市武侯祠大街30号</text>
-    </view>
-    <text class="text_description">测试测试测试测试</text>
-    <view class="listitemInfoWrap">
-        <view class="likeinfo">
-            <text class="iconfont icon-like icon-l"></text>
-            <text class="c-block likeinfo_count">22</text>
+            <text class="c-block likeinfo_count">fan 深情的在此刻签到了</text>
         </view>
         <text class="listitem_creattime">2016.10.29</text>
     </view>

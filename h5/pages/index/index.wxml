@@ -1,18 +1,18 @@
 <view class="c-minheight home_view container">
-    <swiper indicator-active-color="#fa5756" indicator-dots="true">
+    <swiper indicator-active-color="#fa5756" autoplay circular indicator-dots="true">
       <swiper-item>
         <view style="background-color:{{weathercolor}}" class="weather_view">
           <view class="iconfont {{weatherion}} weather-ion"></view>
           <view class="city">
-            <view>{{city}}</view>
-            <view class="temp_name">{{weather}}</view>
-            <view class="temp">{{temperature}}</view>  
+            <view style="text-align: right;">{{weather.city.data}}</view>
+            <view class="temp_name">{{weather.weather.data}}</view>
+            <view class="temp">{{weather.temperature.data}}<text style="font-size: 16px;vertical-align: top;">℃</text></view>  
           </view>
           <view class="other">
-            <view>相对湿度:{{humidity}}</view>
-            <view>风力:{{wind}}</view>
+            <view>相对湿度:{{weather.humidity.data}}</view>
+            <view>风力:{{weather.liveData.winddirection}}风{{weather.liveData.windpower}}级</view>
           </view>
-          <view class="weather_time">{{time}}</view>
+          <view class="weather_time">{{weather.liveData.reporttime}}</view>
         </view>
       </swiper-item>
       <swiper-item>

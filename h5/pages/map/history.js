@@ -18,14 +18,14 @@ Page({
     wx.getSystemInfo({
       success: function (data) {
         var height = 150;
-        var width = data.windowWidth;
+        var width = 320;
         var size = width + '*' + height;
         myAmapFun.getStaticmap({
-          zoom: 14,
+          zoom: 17,
           size: size,
           scale: 2,
-          location: '113.324520,23.099994',
-          markers: "mid,0xFF0000,A:113.324520,23.099994;",
+          location: '104.04311,30.64242',
+          markers: "large,0xFA5756,:104.04311,30.64242",
           success: function (data) {
             that.setData({
               src: data.url
