@@ -41,12 +41,11 @@
           <view class="iconfont icon-pic icon"></view>
           <view class="nav-bottom">今日已上传 1 张</view>
         </navigator>
-        <navigator url="index" class="big_nav bg-yellow bottom-right" hover-class="none">
+        <navigator url="/pages/route/route" class="big_nav bg-yellow bottom-right" hover-class="none">
           <view class="nav-title">
             <text>约会指北</text>
           </view>
           <view class="iconfont icon-location icon"></view>
-          <view class="nav-bottom">敬请期待...</view>
         </navigator>
         <navigator url="/pages/timeline/timeline" class="big_nav bg-red time" hover-class="navigator-hover">
           <view class="nav-title-mid">

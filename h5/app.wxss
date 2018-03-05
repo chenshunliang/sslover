@@ -1,9 +1,14 @@
 /**app.wxss**/
 
 .container {
-        height: 100vh;
-        background-color: #efefef;
-        width: 100%;
+  height: 100vh;
+  background-color: #efefef;
+  width: 100%;
+}
+
+.container_white {
+  height: 100vh;
+  width: 100%;
 }
 
 /* 基础样式 */

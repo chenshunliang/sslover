@@ -5,7 +5,8 @@
     "pages/anniver/anniver",
     "pages/photo/photo",
     "pages/timeline/timeline",
-    "pages/map/history"
+    "pages/map/history",
+    "pages/route/route"
   ],
   "window": {
     "backgroundTextStyle": "light",
