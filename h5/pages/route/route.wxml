@@ -3,7 +3,7 @@
     <input bindinput="bindInput" class="search_text" confirm-type="search" type="text" value="{{search_value}}" placeholder="地点"></input>  
   </view>
   <view class="key_word">
-    <view bindtouchstart="bindSearch" data-keywords="{{i.name}}" data-location="{{i.location}}" class="text_box" wx:for="{{tips}}" wx:for-item="i">
+    <view bindtouchstart="bindSearch" wx:key="key_word" data-keywords="{{i.name}}" data-location="{{i.location}}" class="text_box" wx:for="{{tips}}" wx:for-item="i">
       {{i.name}}
     </view>
     <view wx:if="{{tips.length > 0}}" bindtap="hideTips" class="text_box tips">

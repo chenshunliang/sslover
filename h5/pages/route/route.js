@@ -27,7 +27,8 @@ Page({
     cost: '',
     transits: [],
     polyline: [],
-    search_value: ''
+    search_value: '',
+    transits: ''
   },
 
   /**
@@ -66,7 +67,7 @@ Page({
   getCenterLocation: function () {
     const mapApp = this
     var that = this
-    this.mapCtx.getCenterLocation({
+    wx.getLocation({
       success: function (res) {
         that.setData({
           'markers[0].latitude': res.latitude,
@@ -87,8 +88,8 @@ Page({
     that.setData({
       search_value: e.currentTarget.dataset.keywords,
       tips: [],
-      'markers[1].latitude': e.currentTarget.dataset.location.split(',')[0],
-      'markers[1].longitude': e.currentTarget.dataset.location.split(',')[1]   
+      'markers[1].longitude': e.currentTarget.dataset.location.split(',')[0],
+      'markers[1].latitude': e.currentTarget.dataset.location.split(',')[1]   
     })
     this.getToBus()
   },

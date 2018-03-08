@@ -40,7 +40,7 @@ Page({
             weatherion: 'icon-xiaoyu',
             weathercolor: '#778693'
           })
-        } else if (data.weather.data.indexOf('大雨') > -1) {
+        } else if (data.weather.data.indexOf('大雨') > -1 || data.weather.data.indexOf('雨') > -1) {
           that.setData({
             weatherion: 'icon-dayu',
             weathercolor: '#778693'
