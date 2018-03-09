@@ -1,15 +1,15 @@
 <view class="container_white">
   <view class="search">
-    <input bindinput="bindInput" class="search_text" confirm-type="search" type="text" value="{{search_value}}" placeholder="地点"></input>  
+    <input bindinput="bindInput" class="search_text" confirm-type="search" type="text" value="{{search_value}}" placeholder="约会地点"></input>  
   </view>
-  <view class="key_word">
-    <view bindtouchstart="bindSearch" wx:key="key_word" data-keywords="{{i.name}}" data-location="{{i.location}}" class="text_box" wx:for="{{tips}}" wx:for-item="i">
+  <cover-view class="key_word">
+    <cover-view bindtap="bindSearch" wx:key="key_word" data-keywords="{{i.name}}" data-location="{{i.location}}" class="text_box" wx:for="{{tips}}" wx:for-item="i">
       {{i.name}}
-    </view>
-    <view wx:if="{{tips.length > 0}}" bindtap="hideTips" class="text_box tips">
+    </cover-view>
+    <cover-view wx:if="{{tips.length > 0}}" bindtap="hideTips" class="text_box tips">
       收起提示栏
-    </view>
-  </view>
+    </cover-view>
+  </cover-view>
   <view class="map">
     <map id="navi_map" show-location scale="16" markers="{{markers}}" polyline="{{polyline}}"></map>
   </view>

@@ -1,78 +1,81 @@
-<view class="title">
-  <text>欢迎来到时光机，去回忆你的点滴吧</text>
-</view>
-<view class="music_view">
-  <image class="music" src="../../static/img/music.png"></image>
-</view>
-<view class="title">
-  2018
-</view>
-<view class="boder_line">
-</view>
-<view class="wx-view_JbWxfk">
-    <view class="carditem01">
-        <view class="wx-view_QvvUkU">
-            <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
-                <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
-                <view class="wx-view_cPj0ok">
-                    <text class="c-block wx-text_TvHPc9">Angela</text>
-                    <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
-                </view>
-            </navigator>
-        </view>
-        <navigator class="wx-navigator_PNd8QQ" hover-class="navigator-hover">
-            <image class="wx-image_BEjy38" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
-            <view class="wx-view_KedDbI">
-                <text class="c-block wx-text_6zTs4l">Coolsite360推出国内第一款微信小程序可视化设计工具 集成小程序所有组件，在线进行小程序UI设计，支持Flex布局，可导出符合小程序标准的代码供后续开发。</text>
-            </view>
-        </navigator>
-    </view>
-</view>
-<view class="boder_cut">
-</view>
-<view class="wx-view_JbWxfk">
-    <view class="carditem01">
-        <view class="wx-view_QvvUkU">
-            <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
-                <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
-                <view class="wx-view_cPj0ok">
-                    <text class="c-block wx-text_TvHPc9">Angela</text>
-                    <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
-                </view>
-            </navigator>
-        </view>
-        <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
-            <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
-        </navigator>
-        <view class="cut_pad_3">a</view>
-        <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
-            <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
-        </navigator>
-        <view class="cut_pad_3">a</view>
-        <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
-            <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
-        </navigator>
-        <view class="clear"></view>
-    </view>
-</view>
-<view class="title">
-  2017
-</view>
-<view class="boder_line">
-</view>
-<view class="wx-view_JbWxfk">
-    <view class="carditem01">
-        <view class="wx-view_QvvUkU">
-            <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
-                <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
-                <view class="wx-view_cPj0ok">
-                    <text class="c-block wx-text_TvHPc9">Angela</text>
-                    <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
-                </view>
-            </navigator>
-        </view>
-        <navigator class="wx-navigator_PNd8QQ" hover-class="navigator-hover">
-            <image class="wx-image_BEjy38" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
-        </navigator>
-    </view>
-</view>
+<!-- <image class="background_img" src="../../static/img/timeline.jpg"></image> -->
+<scroll-view class="scroll" scroll-y>
+  <view class="title">
+    <text>欢迎来到时光机，去回忆你的点滴吧</text>
+  </view>
+  <view bindtap="playOrStop" class="music_view">
+    <image class="music {{play_class}}" src="../../static/img/music.png"></image>
+  </view>
+  <view class="title">
+    2018
+  </view>
+  <view class="boder_line">
+  </view>
+  <view class="wx-view_JbWxfk">
+      <view class="carditem01">
+          <view class="wx-view_QvvUkU">
+              <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
+                  <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
+                  <view class="wx-view_cPj0ok">
+                      <text class="c-block wx-text_TvHPc9">Angela</text>
+                      <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
+                  </view>
+              </navigator>
+          </view>
+          <navigator class="wx-navigator_PNd8QQ" hover-class="navigator-hover">
+              <image class="wx-image_BEjy38" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
+              <view class="wx-view_KedDbI">
+                  <text class="c-block wx-text_6zTs4l">Coolsite360推出国内第一款微信小程序可视化设计工具 集成小程序所有组件，在线进行小程序UI设计，支持Flex布局，可导出符合小程序标准的代码供后续开发。</text>
+              </view>
+          </navigator>
+      </view>
+  </view>
+  <view class="boder_cut">
+  </view>
+  <view class="wx-view_JbWxfk">
+      <view class="carditem01">
+          <view class="wx-view_QvvUkU">
+              <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
+                  <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
+                  <view class="wx-view_cPj0ok">
+                      <text class="c-block wx-text_TvHPc9">Angela</text>
+                      <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
+                  </view>
+              </navigator>
+          </view>
+          <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
+              <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
+          </navigator>
+          <view class="cut_pad_3">a</view>
+          <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
+              <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
+          </navigator>
+          <view class="cut_pad_3">a</view>
+          <navigator class="wx-navigator_PNd8QQ grid-3" hover-class="navigator-hover">
+              <image class="image-3" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
+          </navigator>
+          <view class="clear"></view>
+      </view>
+  </view>
+  <view class="title">
+    2017
+  </view>
+  <view class="boder_line">
+  </view>
+  <view class="wx-view_JbWxfk">
+      <view class="carditem01">
+          <view class="wx-view_QvvUkU">
+              <navigator class="wx-navigator_rv4BGW" hover-class="navigator-hover">
+                  <image class="wx-image_tBcdCT" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/e08b7f406c49e68a972a05518afe2e9a_origin.jpg); "/>
+                  <view class="wx-view_cPj0ok">
+                      <text class="c-block wx-text_TvHPc9">Angela</text>
+                      <text class="c-block wx-text_LS2Jup">November 5, 1955</text>
+                  </view>
+              </navigator>
+          </view>
+          <navigator class="wx-navigator_PNd8QQ" hover-class="navigator-hover">
+              <image class="wx-image_BEjy38" mode="aspectFill" src="http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://qty83k.creatby.com/materials/origin/cc09a72b7456da9c074c33dfffc1f94b_origin_2.jpg); "/>
+          </navigator>
+      </view>
+  </view>
+</scroll-view>
